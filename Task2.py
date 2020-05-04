@@ -113,6 +113,6 @@ plt.title("Heatmap for crimes")
 df = pd.DataFrame(data=deg, index=proba, columns=['crimes'])
 ax = sns.heatmap(df)
 print(len(deg))
-nx.draw(B, with_labels=False, font_size=6, node_size=20, node_color=proba, cmap=plt.cm.magma)
+#nx.draw(B, with_labels=False, font_size=6, node_size=20, node_color=proba, cmap=plt.cm.magma)
 
 plt.show()
